@@ -26,3 +26,8 @@ git branch <branch_name> -> creates a new branch
 
 git checkout <branch name> -> used to switch between branches 
 
+git remote add new-remote <new_url> -> adds new repo URL when there already exists an old repo URL
+
+git remote -v -> gives us all the URL that is connected at present
+
+
