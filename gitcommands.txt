@@ -1,0 +1,23 @@
+git add filename.txt -> adds a file to changes that is being commited
+
+git status -> tells us the status of the directory whether it is added or not
+
+git commit -m "filename.txt" -> adds a change(commit) to a particular file 
+
+git init -> initializes the repository
+
+git log -> gives us the history of the commits done
+
+git restore filename.txt -> restores the commits(changes) done in the file
+
+git reset 'hashvalue' -> unstages the commits done
+
+git restore --staged filename.txt -> unstages the commit
+
+git stash -> stashes or unstages the recent commit 
+
+git clone <repo url> -> downloads the project to the computer 
+
+git push origin master -> pushes the commit to the online repository
+
+git remote add origin <repo url >  -> links local repo link to the online git repo
