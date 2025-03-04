@@ -20,4 +20,9 @@ git clone <repo url> -> downloads the project to the computer
 
 git push origin master -> pushes the commit to the online repository
 
-git remote add origin <repo url >  -> links local repo link to the online git repo
+git remote add origin <repo url>  -> links local repo link to the online git repo
+
+git branch <branch_name> -> creates a new branch
+
+git checkout <branch name> -> used to switch between branches 
+
