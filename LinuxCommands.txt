@@ -1,0 +1,72 @@
+ cp - Copy 
+
+ls - lists The Contents
+
+rm - removes the specified file
+
+mv - Moves the file permanently
+
+locate - Locates the File
+
+echo - Similar to print 
+
+ls -la - lists all the hidden files in a directory
+
+ls -a - lists all the hidden files in a directory
+
+cd - change Directory
+
+mkdir - makes a new directory
+
+rmdir - removes a directory
+
+man ls - Lists all the useful commands and the use of that command(man -> manual)
+TO WRITE SOME DATA -> (echo 'Hi!' > sample.txt) this is the command
+
+cat - Reads and prints the content in a file (cat > sample.txt can also be used to create and write data to file in the terminal) we use Ctrl + d to terminate the writing operation
+
+chmod - Change mode (2 ways --> by using letters and numbers)
+e.g. (chmod +rwx , r , w , x filename) , (chmod 777 filename) -->Refer Screenshot for numbers 
+u -> User  --> (chmod u+rwx) changes the user to perform all the operations (rwx)
+g -> Group --> (chmod g+rwx) changes the group to perform all the operations (rwx)
+o -> Others -->  (chmod o+rwx) changes the other to perform all the operations (rwx)
+
+sudo adduser - adds another user
+
+su - Switch user 
+
+grep 'sudo' /etc/group - tells how many users have the sudo privelege
+
+sudo cat /etc/sudoers - tells how many users currently have the sudo privelege
+
+ifconfig - tells us the macaddress , IP , Gateway , subnet mask , broadcast IP in the physical interface (like ethernet,etc.)
+
+iwconfig - same as ifconfig but tells us the information about wireless interfaces
+
+ping - Tells us whether the pinged (or) typed IP address is responding back or not
+
+to append different data to a existing file - 
+echo  "hello"  >> filename.txt
+
+to write data to a file - 
+echo  "hello"  > filename.txt
+
+touch - Creates a file (e.g. touch newfile.txt) creates a new file named newfile
+
+nano filename.txt - pops up a new gui to read,write,save,append and do various operations  
+
+mousepad filename.txt - opens the notepad and we can perform read,write,save,append,etc by using this command
+
+sudo su root - switches from normal user to root user
+
+python3 -m http.server 80 - starts a server with http protocol using python in the port number 80 (by pressing Ctrl + C we can disable the server)
+
+sudo systemctl enable mysql - enables a mysql server at the bootup process
+
+sudo systemctl enable ssh -  enables a ssh protocol server at the bootup process
+
+sudo systemctl disable ssh -  disables the ssh protocol server when it is previously enabled (same goes for mysql too)
+
+
+open - Opens the GUI of the specified path ((e.g. open kali) --> Opens the kali directory like we used to open some folders in windows)
+
